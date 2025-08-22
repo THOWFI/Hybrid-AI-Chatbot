@@ -1,14 +1,17 @@
 Required MODEL to download
 
+File Name : gemma-2b-it.gguf
+
 gemma-2b-instruct:
 
 	https://huggingface.co/core-outline/gemma-2b-instruct/resolve/main/gemma-2b-it.gguf?download=true
 
+File Name : mistral-7b-instruct-v0.1.Q4_K_M.gguf
 
-Mistral-7B-Instruct:
+Mistral-7B-Instruct: 
 
 	https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf?download=true
 
 
 
-* download and put the model in this folder ".gguf" file. (Don't create any folder or in zip file for the model)
+* download and put the model in this folder ".gguf" file only. (Don't create any folder or in zip file for the model and use File Name as i given)
