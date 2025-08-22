@@ -86,69 +86,39 @@ Steps:
       2. Download the models
       3. Place them inside the `models`
 
-## 🔽 Model Downloads
-
-# The `models/Download Link.txt` file contains the official links.
-# For convenience, you can download them directly with the commands below.
-
-# ⚠️ IMPORTANT:
-# - Place the .gguf files directly inside the `models/` folder
-# - Do NOT put them in a subfolder or zip file
-# - Use the exact file names as shown
-
-# Make sure the models/ folder exists
-
-```bash
-mkdir -p models
-```
-
-# 1️⃣ Gemma-2B-Instruct
-# File Name: gemma-2b-it.gguf
-`
-curl -L -o models/gemma-2b-it.gguf \
-https://huggingface.co/core-outline/gemma-2b-instruct/resolve/main/gemma-2b-it.gguf?download=true
-`
-
-# 2️⃣ Mistral-7B-Instruct
-# File Name: mistral-7b-instruct-v0.1.Q4_K_M.gguf
-`
-curl -L -o models/mistral-7b-instruct-v0.1.Q4_K_M.gguf \
-https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf?download=true
-`
-
 ---
 
 ##⚙️ Installation & Setup
 
 ##1️⃣ Clone Repository
 ```bash
-  git clone https://github.com/THOWFI/AI-CHATBOT.git
-  cd AI-CHATBOT
+git clone https://github.com/THOWFI/AI-CHATBOT.git
+cd AI-CHATBOT
 ```
 
 ## 2️⃣ Create Virtual Environment
 ```bash
-  python -m venv .venv
-  .venv\Scripts\activate    # Windows
-  source .venv/bin/activate # Linux/Mac
+python -m venv .venv
+.venv\Scripts\activate    # Windows
+source .venv/bin/activate # Linux/Mac
 ```
 
 ## 3️⃣ Install Dependencies
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 4️⃣ Download Models
 ```bash
-  # Open the text file for download links
-  notepad models/Download\ Link.txt   # Windows
-  cat models/Download\ Link.txt       # Linux/Mac
-  # Download Gemma-2B & Mistral-7B GGUF models and place in models/
+# Open the text file for download links
+notepad models/Download\ Link.txt   # Windows
+cat models/Download\ Link.txt       # Linux/Mac
+# Download Gemma-2B & Mistral-7B GGUF models and place in models/
 ```
 
 ## 5️⃣ Run the Chatbot
 ```bash
-  streamlit run app.py
+streamlit run app.py
 ```
 
 ---
@@ -156,11 +126,11 @@ https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistr
 ## 📊 Example
 
 ```bash
-  🧑: What is AI?
-  🤖 (Gemma): AI stands for Artificial Intelligence, the field of building systems that can think and learn like humans.
-  
-  🧑: Explain Transformer models in deep learning
-  🤖 (Mistral): Transformers are neural architectures introduced in "Attention is All You Need", designed for handling sequential data efficiently with self-attention.
+🧑: What is AI?
+🤖 (Gemma): AI stands for Artificial Intelligence, the field of building systems that can think and learn like humans.
+
+🧑: Explain Transformer models in deep learning
+🤖 (Mistral): Transformers are neural architectures introduced in "Attention is All You Need", designed for handling sequential data efficiently with self-attention.
 ```
 
 ---
