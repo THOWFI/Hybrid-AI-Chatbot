@@ -125,7 +125,7 @@ streamlit run app.py
 
 ## 📊 Example
 
-```bash
+```
 🧑: What is AI?
 🤖 (Gemma): AI stands for Artificial Intelligence, the field of building systems that can think and learn like humans.
 
