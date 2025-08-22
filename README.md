@@ -97,18 +97,24 @@ Steps:
 # - Use the exact file names as shown
 
 # Make sure the models/ folder exists
+
+```bash
 mkdir -p models
+```
 
 # 1️⃣ Gemma-2B-Instruct
 # File Name: gemma-2b-it.gguf
+`
 curl -L -o models/gemma-2b-it.gguf \
 https://huggingface.co/core-outline/gemma-2b-instruct/resolve/main/gemma-2b-it.gguf?download=true
+`
 
 # 2️⃣ Mistral-7B-Instruct
 # File Name: mistral-7b-instruct-v0.1.Q4_K_M.gguf
+`
 curl -L -o models/mistral-7b-instruct-v0.1.Q4_K_M.gguf \
 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf?download=true
-
+`
 
 ---
 
