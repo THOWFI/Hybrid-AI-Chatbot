@@ -147,8 +147,8 @@ streamlit run app.py
 
 ## 📜 License
 
-This project is **for educational and personal use only**.
-Models belong to their respective owners (Gemma/Mistral).
+This project is **for educational and personal use only**.                 
+Models belong to their respective owners (Gemma/Mistral).                      
 
 
 
